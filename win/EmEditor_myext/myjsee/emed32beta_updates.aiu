@@ -1,0 +1,43 @@
+;aiu;
+
+[update32_11]
+ProductVersion=11.0.5.0
+Name=EmEditor Professional (32-bit) Version 11.0.5
+URL=http://www.emeditor.com/pub/emed32_11.0.5.exe
+Size=12662192
+ReleaseDate=07/02/2012
+MD5=c4980cbc157b66a0cc25a22d754c3871
+ServerFileName=emed32_11.0.5.exe
+Flags=SilentInstall
+FilePath=[APPDIR]EmEditor.exe
+Version=11.0.5.0
+Description=Version 11.0.5 is available. Please see EmEditor Home Page (www.emeditor.com) for details.
+BugFix=Fixed the bug where a regular expression search might have crashed when a very long line is searched.
+AutoCloseApplication=[APPDIR]emeditor.exe
+AutoCloseApplication1=[APPDIR]emedtray.exe
+
+[update32_12]
+ProductVersion=12.0.8.0
+Name=EmEditor Professional (32-bit) Version 12.0.8
+URL=http://www.emeditor.com/pub/emed32_12.0.8.exe
+Size=13515256
+ReleaseDate=27/12/2012
+MD5=0b5e6be5f4574bdf5fd59c42338f44c1
+ServerFileName=emed32_12.0.8.exe
+Flags=SilentInstall
+FilePath=[APPDIR]EmEditor.exe
+Version=12.0.8.0
+Description=Version 12.0.8 is available. The registration key for v12 is different from the key for v11. If you are using v11, you might need to purchase an upgrade. Please see EmEditor Home Page (www.emeditor.com) for details.
+Enhancement=Improved "Find in Files" in very large files.
+BugFix=Fixed the bug where sort commands didn't work correctly when text was not selected on the 32-bit version of EmEditor.
+BugFix1=Fixed a certain tab column issue.
+BugFix2=Fixed the bug where eeFindSaveHistory didn't work on the FindInFiles and ReplaceInFiles method in macros.
+BugFix3=Fixed a certain UI issue in the Replace Batch dialog box.
+BugFix4=Removed duplicate highlight strings in JavaScript for EmEditor and VBScript for EmEditor configuration.
+BugFix5=Adjusted and Fixed the page margin issues.
+BugFix6=Fixed a certain issue related to regular expression multi-line search.
+BugFix7=Fixed a certain issue related to the Projects plug-in.
+BugFix8=Adjusted the default Ruby auto indent regular expressions.
+BugFix9=Fixed the bug where FindRepeat might have been recorded twice for each Find Next command.
+AutoCloseApplication=[APPDIR]emeditor.exe
+AutoCloseApplication1=[APPDIR]emedtray.exe

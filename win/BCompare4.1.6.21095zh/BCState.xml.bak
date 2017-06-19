@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCState Version="1" MinVersion="1">
+	<TBcState>
+		<FirstStartup Value="False"/>
+		<FormPositions>
+			<TDirCompareSessionDialog Value="421;135;1019;735"/>
+			<TDirOpErrorsDialog Value="526;262;853;572"/>
+			<TFileFormatManagerDialog Value="159;143;1280;726"/>
+			<TImportDialog Value="620;557;954;870"/>
+			<TOpSyncDialog Value="538;264;902;606"/>
+			<TViewFrame Value="199;43;1234;662;3"/>
+		</FormPositions>
+	</TBcState>
+	<TCheckForUpdatesState>
+		<Build Value="22384"/>
+		<CheckID Value="186916976721920"/>
+		<LastChecked Value="2017-06-08 10:39:39"/>
+		<MsgDate Value="2016-11-10 00:00:00"/>
+		<MsgDaysDate Value="2016-11-10 00:00:00"/>
+	</TCheckForUpdatesState>
+	<TDataCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\zhujianmin\Desktop\ui - 副本\manager\task_list.html"/>
+			<_1 Value="C:\Users\zhujianmin\Desktop\ui - 副本\manager\job_list.html"/>
+			<_2 Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\job_list.html"/>
+			<_3 Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\editing-custom.html"/>
+			<_4 Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\all.html"/>
+			<_5 Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\a.html"/>
+			<_6 Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\__zn_test.html"/>
+			<_7 Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\lib\nunjucks\views\sub.html"/>
+			<_8 Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\lib\nunjucks\views\parent.html"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\task_list.html"/>
+			<_1 Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\job_list.html"/>
+			<_2 Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\all.html"/>
+			<_3 Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\a.html"/>
+			<_4 Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\test.html"/>
+			<_5 Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\lib\Hui-iconfont\1.0.7\demo.html"/>
+			<_6 Value="C:\Users\zhujianmin\Desktop\zTree_v3-master\demo\cn\super\2.html"/>
+			<_7 Value="C:\Users\zhujianmin\Desktop\telerik.kendoui.professional.2016.3.914.trial\examples\datasource\remote-data-binding.html"/>
+		</RightMRUSpecs>
+	</TDataCompareState>
+	<TDirCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu"/>
+			<_1 Value="C:\Users\zhujianmin\Desktop\html_qinghua"/>
+			<_2 Value="C:\Users\zhujianmin\Desktop\tsinghua_index"/>
+			<_3 Value="C:\_zhu\b_sg\b__zhannei_front"/>
+			<_4 Value="C:\Users\zhujianmin\Desktop\server\resin-4.0.48"/>
+			<_5 Value="C:\Users\zhujianmin\Desktop\WebRoot"/>
+			<_6 Value="C:\Users\zhujianmin\Desktop\kendoui_unrar\telerik.kendoui.professional.2017.1.118.trial"/>
+			<_7 Value="C:\Users\zhujianmin\Desktop\kendoui_unrar\telerik.kendoui.professional.2017.1.118.trial\js"/>
+			<_8 Value="C:\_zhu\b_sg\b__zhannei_front\kui"/>
+		</LeftMRUSpecs>
+		<MRUFilters>
+			<_0 Value="-.svn\"/>
+			<_1 Value="-.svn"/>
+			<_2 Value="*.*;.svn"/>
+			<_3 Value="-.\.gitignore;-.\mvn_clean_package.bat;-.\mvn_jettyRun.bat;-.\package.json;-.\pom.xml;-.\tsc_start_watch.bat;-.\tsconfig.json;-.\tsd.json;-*.map;-.\.git\;-.\.idea\;-.\typings\"/>
+			<_4 Value="-*.map"/>
+			<_5 Value="*.*;*.map"/>
+			<_6 Value="-*.map;-.\.git\;-.\.idea\"/>
+			<_7 Value="-.\a.html;-.\apidocs.tar.gz;-.\ss.html;-*.map;-.\apidocs\"/>
+			<_8 Value="*.map;-.\.git\;-.\.idea\"/>
+		</MRUFilters>
+		<RightMRUSpecs>
+			<_0 Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\pku"/>
+			<_1 Value="C:\Users\zhujianmin\Desktop\html_bit"/>
+			<_2 Value="C:\Users\zhujianmin\Desktop\aaa"/>
+			<_3 Value="C:\Users\zhujianmin\Desktop\zhannei_front"/>
+			<_4 Value="E:\server_ra\resin-4.0.48"/>
+			<_5 Value="V:\sogou_branches\umis\umis\WebRoot"/>
+			<_6 Value="C:\Users\zhujianmin\Desktop\kendoui_unrar\telerik.kendoui.professional.2017.1.223.trial"/>
+			<_7 Value="C:\Users\zhujianmin\Desktop\kendoui_unrar\kendo-ui-core\dist\js"/>
+			<_8 Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\kui"/>
+		</RightMRUSpecs>
+	</TDirCompareState>
+	<TFileFormatManagerState>
+		<ListWidth Value="692"/>
+	</TFileFormatManagerState>
+	<THexCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="V:\sogou_branches\searchtools\searchtool_front__old\.git\objects\pack\pack-2621aa148c359c2d8309003e7512363fda643d90.idx"/>
+			<_1 Value="C:\_tools_data\config_data\idea_config\.IntelliJIdea2016.3\system\plugins\action.script"/>
+			<_2 Value="C:\Users\zhujianmin\Desktop\ssdlife.exe"/>
+			<_3 Value="C:\Users\zhujianmin\Desktop\aaaa\new_tasks_manager\nohup.out"/>
+			<_4 Value="D:\server\nexus-3.1.0-04-win64\sonatype-work\nexus3\keystores\node\private.ks"/>
+			<_5 Value="D:\server\nexus-3.1.0-04-win64\sonatype-work\nexus3\elasticsearch\nexus\nodes\0\_state\global-1.st"/>
+			<_6 Value="D:\server\nexus-3.1.0-04-win64\sonatype-work\nexus3\db\security\anonymous.pcl"/>
+			<_7 Value="D:\server\nexus-3.1.0-04-win64\sonatype-work\nexus3\db\config\ldap.pcl"/>
+			<_8 Value="D:\server\nexus-3.1.0-04-win64\sonatype-work\nexus3\db\config\index.pcl"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\_tools_data\config_data\idea_config\.IntelliJIdea15\system\plugins\action.script"/>
+			<_1 Value="C:\Users\zhujianmin\Desktop\ssd\ssdlife.exe"/>
+			<_2 Value="V:\sogou_branches\taskmanager\cloudtask\nohup.out"/>
+			<_3 Value="D:\my_sync_folder\npm_maven_docker_localserver\nexus-3.0.2-02_nexus_data\keystores\node\private.ks"/>
+			<_4 Value="D:\my_sync_folder\npm_maven_docker_localserver\nexus-3.0.2-02_nexus_data\elasticsearch\nexus\nodes\0\_state\global-1.st"/>
+			<_5 Value="D:\my_sync_folder\npm_maven_docker_localserver\nexus-3.0.2-02_nexus_data\db\security\anonymous.pcl"/>
+			<_6 Value="D:\my_sync_folder\npm_maven_docker_localserver\nexus-3.0.2-02_nexus_data\db\config\ldap.pcl"/>
+			<_7 Value="D:\my_sync_folder\npm_maven_docker_localserver\nexus-3.0.2-02_nexus_data\db\config\index.pcl"/>
+			<_8 Value="D:\my_sync_folder\npm_maven_docker_localserver\nexus-3.0.2-02_nexus_data\db\config\config.0.wal"/>
+		</RightMRUSpecs>
+	</THexCompareState>
+	<THomeState>
+		<SessionType Value="TTextCompareSession"/>
+	</THomeState>
+	<TImportState>
+		<MRUFilename Value="C:\Users\zhujianmin\Downloads\BCFormats4.0_all.bcpkg"/>
+	</TImportState>
+	<TOpCompareState>
+		<Kind Value="ccRulesBased"/>
+	</TOpCompareState>
+	<TOpDeleteState>
+		<UseRecycleBin Value="True"/>
+	</TOpDeleteState>
+	<TPixCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\zhujianmin\Desktop\html_qinghua\image\logo1.png"/>
+		</LeftMRUSpecs>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\zhujianmin\Desktop\html_bit\image\logo1.png"/>
+		</RightMRUSpecs>
+	</TPixCompareState>
+	<TTextCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\_zhu\b_sg\b__zhannei_admin\znmanager\www\ui\js\ext\FormUtil.ts"/>
+			<_1 Value="C:\_zhu\b_sg\b__zhannei_front\html\common\index_new.ts"/>
+			<_2 Value="C:\_zhu\b_sg\b__zhannei_front\html\common\lib\kkpager\kkpager_gray.css"/>
+			<_3 Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index.html"/>
+			<_4 Value="C:\Users\zhujianmin\Desktop\dlmu.html"/>
+			<_5 Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index2.html"/>
+			<_6 Value="C:\Users\zhujianmin\Desktop\html_qinghua\css\school_search.css"/>
+			<_7 Value="C:\Users\zhujianmin\Desktop\html_qinghua\images\logo_440x140.jpg"/>
+			<_8 Value="C:\Users\zhujianmin\Desktop\html_qinghua\index.html"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\_zhu\b_sg\b__zhannei_admin\znmanager\www\ui\ext\FormUtil.ts"/>
+			<_1 Value="C:\_zhu\b_sg\b__zhannei_front\html\common\index.ts"/>
+			<_2 Value="C:\_zhu\b_sg\b__zhannei_front\html\common\lib\kkpager\kkpager_purple.css"/>
+			<_3 Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index2.html"/>
+			<_4 Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index.html"/>
+			<_5 Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\大连海事大学.html"/>
+			<_6 Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\pku\index.html"/>
+			<_7 Value="C:\Users\zhujianmin\Desktop\html_bit\css\school_search.css"/>
+			<_8 Value="C:\Users\zhujianmin\Desktop\html_bit\images\logo_440x140.jpg"/>
+		</RightMRUSpecs>
+	</TTextCompareState>
+	<TTextFindState>
+		<FindItems>
+			<_0 Value="多支持40个汉字的查询,超出部"/>
+			<_1 Value="sogoupassport"/>
+			<_2 Value="grid"/>
+			<_3 Value="autocom"/>
+			<_4 Value="-test"/>
+			<_5 Value="start"/>
+		</FindItems>
+		<ReplaceItems>
+			<_0/>
+		</ReplaceItems>
+	</TTextFindState>
+</BCState>

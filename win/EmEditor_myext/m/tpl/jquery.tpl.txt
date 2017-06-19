@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>模板</title>
+<script src="${js.jquery}"></script>
+<script src="${js.json}"></script>
+<script src="${js.trimpath}"></script> 
+<script>
+$(function(){
+	var jb=$("#b");
+	//jb.html("")
+	jb.click(function(){
+		$("#dout").prepend("test")
+	})
+})
+</script>
+</head>
+<body>
+<div id=dout></div>
+<button id=b ></button>
+</body>
+</html>
+
+
+
+ 

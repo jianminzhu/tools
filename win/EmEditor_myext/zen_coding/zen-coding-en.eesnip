@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--EmEditor Snippets file-->
+<Snippets>
+<SnippetTree>
+	<Folder Name="Zen Coding" Flags="1" ConfigEdit="HTML" ConfigMacro="JavaScript for EmEditor" ConfigsAssociate="\HTML\XML\">
+		<Item Name="Balance Tag" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'match_pair_outward' );
+" Trigger="" Tip="" ShortcutKey="68" ShortcutVirt="15"/>
+		<Item Name="Decrement number by 0.1" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'decrement_number_by_01' );
+" Trigger="" Tip="" ShortcutKey="109" ShortcutVirt="15"/>
+		<Item Name="Decrement number by 1" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'decrement_number_by_1' );
+" Trigger="" Tip="" ShortcutKey="109" ShortcutVirt="11"/>
+		<Item Name="Decrement number by 10" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'decrement_number_by_10' );
+" Trigger="" Tip="" ShortcutKey="109" ShortcutVirt="7"/>
+		<Item Name="Evaluate Math Expression" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'evaluate_math_expression' );
+" Trigger="" Tip="" ShortcutKey="187" ShortcutVirt="11"/>
+		<Item Name="Expand Abbreviation" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="\" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'expand_abbreviation' );
+" Trigger="" Tip="" ShortcutKey="123" ShortcutVirt="3"/>
+		<Item Name="Go to Matching Pair" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'matching_pair' );
+" Trigger="" Tip="" ShortcutKey="219" ShortcutVirt="11"/>
+		<Item Name="Increment number by 0.1" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'increment_number_by_01' );
+" Trigger="" Tip="" ShortcutKey="107" ShortcutVirt="15"/>
+		<Item Name="Increment number by 1" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'increment_number_by_1' );
+" Trigger="" Tip="" ShortcutKey="107" ShortcutVirt="11"/>
+		<Item Name="Increment number by 10" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'increment_number_by_10' );
+" Trigger="" Tip="" ShortcutKey="107" ShortcutVirt="7"/>
+		<Item Name="Merge Lines" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'merge_lines' );
+" Trigger="" Tip="" ShortcutKey="77" ShortcutVirt="15"/>
+		<Item Name="Next Edit Point" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'next_edit_point' );
+" Trigger="" Tip="" ShortcutKey="220" ShortcutVirt="11"/>
+		<Item Name="Previous Edit Point" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'prev_edit_point' );
+" Trigger="" Tip="" ShortcutKey="220" ShortcutVirt="15"/>
+		<Item Name="Remove Tag" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'remove_tag' );
+" Trigger="" Tip="" ShortcutKey="222" ShortcutVirt="15"/>
+		<Item Name="Split/Join Tag" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'split_join_tag' );
+" Trigger="" Tip="" ShortcutKey="186" ShortcutVirt="11"/>
+		<Item Name="Toggle Comment" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'toggle_comment' );
+" Trigger="" Tip="" ShortcutKey="191" ShortcutVirt="19"/>
+		<Item Name="Wrap with Abbreviation" Flags="8" ConfigEdit="" ConfigMacro="" ConfigsAssociate="" Text="#include &quot;zen_emeditor.jsee&quot;
+zc_manager( 'wrap_with_abbreviation' );
+" Trigger="" Tip="" ShortcutKey="65" ShortcutVirt="15"/>
+	</Folder>
+</SnippetTree>
+</Snippets>

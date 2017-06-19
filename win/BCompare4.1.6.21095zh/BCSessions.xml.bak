@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCSessions Version="1" MinVersion="1">
+	<TSessionFolder>
+		<Items>
+			<TSessionFolder>
+				<Items>
+					<TTextCompareSession Value="FormUtil.ts">
+						<LastModified Value="2017-06-09 10:35:17"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_admin\znmanager\www\ui\js\ext\FormUtil.ts"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_admin\znmanager\www\ui\ext\FormUtil.ts"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="index_new.ts &lt;--> index.ts">
+						<LastModified Value="2017-06-09 10:02:03"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_front\html\common\index_new.ts"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_front\html\common\index.ts"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="kkpager_gray.css &lt;--> kkpager_purple.css">
+						<LastModified Value="2017-06-08 19:09:00"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_front\html\common\lib\kkpager\kkpager_gray.css"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_front\html\common\lib\kkpager\kkpager_purple.css"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="index.html &lt;--> index2.html">
+						<LastModified Value="2017-06-08 18:50:58"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index.html"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index2.html"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="dlmu.html &lt;--> index.html">
+						<LastModified Value="2017-06-08 10:58:55"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\dlmu.html"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index.html"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="index.html &lt;--> 大连海事大学.html">
+						<LastModified Value="2017-06-08 10:44:23"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index.html"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\大连海事大学.html"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="index2.html &lt;--> 大连海事大学.html">
+						<LastModified Value="2017-06-08 10:44:23"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\index2.html"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu\大连海事大学.html"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="dlmu &lt;--> pku">
+						<LastModified Value="2017-06-02 16:17:08"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\dlmu"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_front\html\edu\pku"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="html_qinghua &lt;--> html_bit">
+						<LastModified Value="2017-06-01 19:27:26"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\html_qinghua"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\html_bit"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="tsinghua_index &lt;--> aaa">
+						<Filters>
+							<NameFilter Value="-.\.git\;-.\.idea\"/>
+						</Filters>
+						<LastModified Value="2017-06-01 15:00:20"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\tsinghua_index"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\aaa"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="bundle.js &lt;--> bundle2.js">
+						<LastModified Value="2017-05-31 16:59:54"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\test_webpack\bundle.js"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\test_webpack\bundle2.js"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="zhannei.sql &lt;--> 数据库脚本.sql">
+						<LastModified Value="2017-05-31 16:59:54"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\zhannei.sql"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_admin\dbscript\数据库脚本.sql"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="package.json">
+						<LastModified Value="2017-05-31 11:59:42"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\mgit\ykit-starter-react\package.json"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\mgit\ykit-starter-vue\package.json"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="1.html &lt;--> 2.html">
+						<LastModified Value="2017-05-19 17:25:36"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\src\1.html"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\src\2.html"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="nginx.conf">
+						<LastModified Value="2017-05-19 10:45:51"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_admin\nginx.conf"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_admin\docs\nginx.conf"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="b__zhannei_front &lt;--> zhannei_front">
+						<LastModified Value="2017-05-18 13:26:25"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_front"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\zhannei_front"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="ZhiHuBlackList.java &lt;--> NewsBlackList.java">
+						<LastModified Value="2017-05-12 15:51:06"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\新建文件夹\ZhiHuBlackList.java"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\新建文件夹\NewsBlackList.java"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="ZhihuBlacklist.java &lt;--> XmlPidBlacklist.java">
+						<LastModified Value="2017-05-12 14:36:27"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\1222.1159.wanghailong.resin.tsinghuasearch\src\main\java\com\sohu\websearch\blacklist\ZhihuBlacklist.java"/>
+							<Right Value="C:\_zhu\b_sg\1222.1159.wanghailong.resin.tsinghuasearch\src\main\java\com\sohu\websearch\blacklist\XmlPidBlacklist.java"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="resin-4.0.48">
+						<LastModified Value="2017-05-12 11:59:31"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\server\resin-4.0.48"/>
+							<Right Value="E:\server_ra\resin-4.0.48"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="WebRoot">
+						<Filters>
+							<NameFilter Value="-.svn\"/>
+						</Filters>
+						<LastModified Value="2017-05-10 18:43:08"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\WebRoot"/>
+							<Right Value="V:\sogou_branches\umis\umis\WebRoot"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="nginx.conf &lt;--> nginx__.conf">
+						<CodePageOverride>
+							<Left Value="54936"/>
+						</CodePageOverride>
+						<LastModified Value="2017-05-10 18:10:42"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\server\nginx-1.9.9\conf\nginx.conf"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\server\nginx-1.9.9\conf\nginx__.conf"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="index.jsp">
+						<LastModified Value="2017-05-09 15:55:43"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\index.jsp"/>
+							<Right Value="E:\server_ra\resin-4.0.48\webapps\ROOT\index.jsp"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="js">
+						<LastModified Value="2017-05-04 14:52:32"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\kendoui_unrar\telerik.kendoui.professional.2017.1.118.trial\js"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\kendoui_unrar\kendo-ui-core\dist\js"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="telerik.kendoui.professional.2017.1.118.trial &lt;--> telerik.kendoui.professional.2017.1.223.trial">
+						<Filters>
+							<NameFilter Value="-.\js\cultures\;-.\js\messages\;-.\js\;-.\license-agreements\"/>
+						</Filters>
+						<LastModified Value="2017-05-04 14:52:32"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\kendoui_unrar\telerik.kendoui.professional.2017.1.118.trial"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\kendoui_unrar\telerik.kendoui.professional.2017.1.223.trial"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="kui">
+						<LastModified Value="2017-05-04 13:48:40"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_front\kui"/>
+							<Right Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\kui"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="web.xml">
+						<LastModified Value="2017-05-03 16:24:55"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\umis\umis\WebRoot\WEB-INF\web.xml"/>
+							<Right Value="V:\sogou_branches\umis\web.xml"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="WebRoot">
+						<LastModified Value="2017-05-02 11:02:55"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\WebRoot"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="layer_test &lt;--> ny_data">
+						<Filters>
+							<NameFilter Value="-.\test_request.js;-.\test_sqlite_p.js;-.\test_sqlite_ss.js;-.\yarn.lock;-.\node_modules\;-.\.idea\"/>
+						</Filters>
+						<LastModified Value="2017-04-24 20:23:48"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\layer_test"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\ny_data"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="Server.ts &lt;--> T.ts">
+						<LastModified Value="2017-04-24 20:13:22"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\layer_test\Server.ts"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\ny_data\T.ts"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="WebRoot">
+						<LastModified Value="2017-04-21 19:31:15"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\umis\umis\WebRoot"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="WebRoot &lt;--> websearch">
+						<Filters>
+							<NameFilter Value="-.\.svn\"/>
+						</Filters>
+						<LastModified Value="2017-04-21 18:40:00"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\umis\umis\WebRoot"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\websearch"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="json_search2_backup.jsp &lt;--> json_search2.jsp">
+						<LastModified Value="2017-04-21 18:32:28"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\resin_web_weixin\pc_resin_tr547172\src\main\webapp\json_search2_backup.jsp"/>
+							<Right Value="V:\sogou_branches\resin_web_weixin\pc_resin_tr547172\src\main\webapp\json_search2.jsp"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="json_search2.jsp">
+						<LastModified Value="2017-04-21 18:22:45"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\websearch\json_search2.jsp"/>
+							<Right Value="V:\sogou_branches\resin_web_weixin\pc_resin_tr547172\src\main\webapp\json_search2.jsp"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="searchtool_front__old &lt;--> searchtool_front">
+						<Filters>
+							<NameFilter Value="-.\.idea\;-.\src\"/>
+						</Filters>
+						<LastModified Value="2017-04-21 14:12:54"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\searchtools\searchtool_front__old"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="searchtool_front &lt;--> searchtool_front__old">
+						<Filters>
+							<NameFilter Value="-.\.git\;-.\.idea\"/>
+						</Filters>
+						<LastModified Value="2017-04-21 13:39:26"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\searchtools\searchtool_front"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front__old"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="searchtool_front">
+						<Filters>
+							<NameFilter Value="-.\.git\"/>
+						</Filters>
+						<LastModified Value="2017-04-21 13:37:29"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\searchtool_front"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="webapp &lt;--> html">
+						<Filters>
+							<NameFilter Value="-*.map"/>
+						</Filters>
+						<LastModified Value="2017-04-21 13:28:01"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\searchtools\searchtool_front\src\main\webapp"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\html"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="searchtool_front">
+						<Filters>
+							<NameFilter Value="-*.map;-.\.git\;-.\.idea\"/>
+						</Filters>
+						<LastModified Value="2017-04-21 13:25:05"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\searchtools\searchtool_front"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\searchtool_front"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="webapp &lt;--> html">
+						<Filters>
+							<NameFilter Value="-*.map"/>
+						</Filters>
+						<LastModified Value="2017-04-21 13:04:55"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\searchtool_front\src\main\webapp"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\html"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="session.js">
+						<LastModified Value="2017-04-21 12:56:06"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\searchtool_front\src\main\webapp\jsx\session.js"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front\src\main\webapp\jsx\session.js"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="session.tsx">
+						<LastModified Value="2017-04-21 12:56:02"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\searchtool_front\src\main\jsx\session.tsx"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front\src\main\jsx\session.tsx"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="searchtool_common.js">
+						<LastModified Value="2017-04-21 12:56:01"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\searchtool_front\src\main\webapp\jsx\searchtool_common.js"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front\src\main\webapp\jsx\searchtool_common.js"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="websearch &lt;--> aaa">
+						<LastModified Value="2017-04-21 12:32:46"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\websearch"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\aaa"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="json_search2.jsp &lt;--> json_search2_backup.jsp">
+						<LastModified Value="2017-04-21 12:32:46"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\websearch\json_search2.jsp"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\websearch\json_search2_backup.jsp"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="html &lt;--> webapp">
+						<LastModified Value="2017-04-21 11:35:39"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\html"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front\src\main\webapp"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="html &lt;--> b__zhannei_front">
+						<LastModified Value="2017-04-20 11:51:47"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\html"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_front"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="LeftMenu.ts &lt;--> LeftMenuNew.ts">
+						<LastModified Value="2017-04-17 10:01:48"/>
+						<Specs>
+							<Left Value="C:\_zhu\b_sg\b__zhannei_admin\www\ui\js\vue2_components\LeftMenu.ts"/>
+							<Right Value="C:\_zhu\b_sg\b__zhannei_admin\www\ui\js\vue2_components\LeftMenuNew.ts"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="search_result_zn &lt;--> html">
+						<LastModified Value="2017-04-14 13:18:41"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\search_result_zn"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\tolinux\znServer\www\html"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftChanged]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="znServer &lt;--> zhannei">
+						<Filters>
+							<NameFilter Value="-.\.gitignore;-.\.project;-.\.thinkjsrc;-.\en.js;-.\enclose__package.bat;-.\nexe__package.bat;-.\nginx.conf;-.\npm_i_.bat;-.\package.json;-.\pm2.json;-.\pv.txt;-.\README.md;-.\result.txt;-.\shutdown.sh;-.\spider_baidu.js;-.\start.sh;-.\start_livereload.bat;-.\zhannei.iml;-.\.git\;-.\.idea\;-.\app\;-.\docs\;-.\node_modules\;-.\src\;-.\test\;-.\view\;-.\www\static\"/>
+						</Filters>
+						<LastModified Value="2017-04-14 11:48:22"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\znServer"/>
+							<Right Value="V:\sogou_branches\zhan_nei\zhannei"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="node_modules &lt;--> node_modules_yarn">
+						<LastModified Value="2017-04-13 15:17:56"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\start_brower-sync_liveload\node_modules"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\start_brower-sync_liveload\node_modules_yarn"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="node_modules">
+						<LastModified Value="2017-04-13 15:08:35"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\node_modules"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="node_modules">
+						<LastModified Value="2017-04-13 15:08:35"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\node_modules"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\start_brower-sync_liveload\node_modules"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="index.ts">
+						<LastModified Value="2017-04-12 19:07:51"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\index.ts"/>
+							<Right Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\index.ts"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="html &lt;--> ui">
+						<LastModified Value="2017-04-11 11:03:28"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\tolinux\znServer\www\html"/>
+							<Right Value="V:\sogou_branches\zhan_nei\zhannei\www\ui"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="search.render.util.ts">
+						<LastModified Value="2017-04-11 10:11:58"/>
+						<Specs>
+							<Left Value="E:\crt_hosts\10.134.16.25\search.render.util.ts"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\tolinux\znServer\www\html\search.render.util.ts"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="www">
+						<LastModified Value="2017-03-27 16:42:10"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\tolinux\znServer\www"/>
+							<Right Value="V:\sogou_branches\zhan_nei\zhannei\www"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="znServer">
+						<LastModified Value="2017-03-27 16:22:48"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\znServer"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\tolinux\znServer"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="webapp">
+						<LastModified Value="2017-03-22 10:34:58"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\webapp"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front\src\main\webapp"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="pc.txt &lt;--> pc - 副本.txt">
+						<LastModified Value="2017-03-20 16:49:04"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\pc.txt"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\pc - 副本.txt"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="pc_menu.js &lt;--> vr.txt">
+						<LastModified Value="2017-03-20 16:40:04"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\juicer_demo\pc_menu.js"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\juicer_demo\vr.txt"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="resanalysis_wenti.war &lt;--> resanalysis.war">
+						<LastModified Value="2017-03-20 16:37:42"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\ra\resanalysis_site_wjq\resanalysis_wenti.war"/>
+							<Right Value="V:\sogou_branches\ra\resanalysis_site_wjq\target\resanalysis.war"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="无.html &lt;--> 有.html">
+						<LastModified Value="2017-03-20 16:37:42"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\无.html"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\有.html"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="node_modules_npm &lt;--> node_modules_yarn">
+						<LastModified Value="2017-03-17 14:27:39"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\npm_time\node_modules_npm"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\manage-system\node_modules_yarn"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="jobs_list.ts">
+						<LastModified Value="2017-03-16 12:28:13"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\jobs_list.ts"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\jobs_list.ts"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value=".IntelliJIdea2016.3 &lt;--> .IntelliJIdea15">
+						<LastModified Value="2017-03-16 10:55:55"/>
+						<Specs>
+							<Left Value="C:\_tools_data\config_data\idea_config\.IntelliJIdea2016.3"/>
+							<Right Value="C:\_tools_data\config_data\idea_config\.IntelliJIdea15"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="IDEA &lt;--> IDEA2016.1">
+						<LastModified Value="2017-03-16 10:40:56"/>
+						<Specs>
+							<Left Value="C:\soft\JetBrains\IDEA"/>
+							<Right Value="C:\soft\JetBrains\IDEA2016.1"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="umis">
+						<Filters>
+							<NameFilter Value="-.\.idea\;-.\.myeclipse\;-.\.settings\;-.\.svn\"/>
+						</Filters>
+						<LastModified Value="2017-03-14 11:52:56"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\umis\umis"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\umis"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="new_tasks_manager">
+						<Filters>
+							<NameFilter Value="-.\.git\"/>
+						</Filters>
+						<LastModified Value="2017-03-08 15:11:10"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\new_tasks_manager"/>
+							<Right Value="V:\sogou_branches\taskmanager\new_tasks_manager"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="cloudtask &lt;--> new_tasks_manager">
+						<Filters>
+							<NameFilter Value="-.\.git\;-.\.idea\;-.\app\;-.\node_modules\"/>
+						</Filters>
+						<LastModified Value="2017-03-08 15:06:22"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\taskmanager\cloudtask"/>
+							<Right Value="V:\sogou_branches\taskmanager\new_tasks_manager"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="cloudtask &lt;--> new_tasks_manager - 副本">
+						<Filters>
+							<NameFilter Value="-.\.git\;-.\.idea\;-.\app\;-.\node_modules\"/>
+						</Filters>
+						<LastModified Value="2017-03-08 15:06:00"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\taskmanager\cloudtask"/>
+							<Right Value="V:\sogou_branches\taskmanager\new_tasks_manager - 副本"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="1.html &lt;--> editor.html">
+						<LastModified Value="2017-03-06 16:44:16"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\1.html"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\editor.html"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="v2">
+						<LastModified Value="2017-03-06 10:26:10"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\v2"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\v2"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="telerik.kendoui.professional.2017.1.223.trial &lt;--> telerik.kendoui.professional.2017.1.118.trial">
+						<LastModified Value="2017-03-03 18:49:12"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\kendoui\telerik.kendoui.professional.2017.1.223.trial"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\kendoui\telerik.kendoui.professional.2017.1.118.trial"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="nav.json &lt;--> kendo.tabstrip.min.js">
+						<LastModified Value="2017-03-03 18:49:12"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\kendoui\telerik.kendoui.professional.2017.1.223.trial\examples\content\nav.json"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\kendoui\telerik.kendoui.professional.2017.1.118.trial\js\kendo.tabstrip.min.js"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="sxw &lt;--> shixunwang">
+						<Filters>
+							<NameFilter Value="-.\.git\;-.\.idea\"/>
+						</Filters>
+						<LastModified Value="2017-03-01 12:55:41"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\ssd\sxw"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\新建文件夹\shixunwang"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="articleDetailNew.html &lt;--> articleDetail.html">
+						<LastModified Value="2017-02-28 13:08:43"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\ssd\sxw\wdis\web\static\articleDetailNew.html"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\ssd\sxw\wdis\web\static\articleDetail.html"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="images">
+						<LastModified Value="2017-02-22 13:49:13"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\images"/>
+							<Right Value="V:\sogou_branches\zhan_nei\zhannei\www\ui\v2\images"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="node_modules &lt;--> node_modules1">
+						<Filters>
+							<NameFilter Value="-.\.bin\"/>
+						</Filters>
+						<LastModified Value="2017-02-22 13:02:07"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\vue_weixin\node_modules"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\vue_weixin\node_modules1"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<THexCompareSession Value="ssdlife.exe">
+						<LastModified Value="2017-02-21 14:37:07"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\ssdlife.exe"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\ssd\ssdlife.exe"/>
+						</Specs>
+					</THexCompareSession>
+					<TDirCompareSession Value="resanalysis_site_wjq &lt;--> resanalysis">
+						<Filters>
+							<NameFilter Value="-.\.gitignore;-.\mvn_clean_package.bat;-.\pom.xml;-.\resin_mvn_clean_package.bat;-.\resin_start.bat;-.\sql.json;-.\.git\;-.\docs\"/>
+						</Filters>
+						<LastModified Value="2017-02-21 09:47:53"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\ra\resanalysis_site_wjq"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\aa\resanalysis"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="webapp &lt;--> websearch_json_util">
+						<LastModified Value="2017-02-17 10:49:11"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\resin_web_weixin\pc_resin_tr547172\src\main\webapp"/>
+							<Right Value="V:\sogou_branches\websearch_json_util"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="job_list.html &lt;--> task_list.html">
+						<LastModified Value="2017-02-14 16:14:40"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\job_list.html"/>
+							<Right Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\task_list.html"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="cloudtask &lt;--> nodeServer">
+						<Filters>
+							<NameFilter Value="-node_modules.zip;-nohup.out;-.\.gitignore;-.\pm2.json;-.\start.sh;-.\stop.sh;-npm_install.bat;-.\.git\;-.\.idea\;-.\app\;-.\doc\;-.\view\;-.\runtime\;-.\test\"/>
+						</Filters>
+						<LastModified Value="2017-02-13 17:29:39"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\taskmanager\cloudtask"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\nodeServer"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="piwik2.17.1.zip &lt;--> piwik.zip">
+						<LastModified Value="2016-12-15 15:00:19"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Downloads\piwik2.17.1.zip"/>
+							<Right Value="C:\Users\zhujianmin\Downloads\piwik.zip"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="new_tasks_manager &lt;--> cloudtask">
+						<Filters>
+							<NameFilter Value="-cloudtask.iml;-.\.idea\;-.\app\;-.\.git\;-.\node_modules\"/>
+						</Filters>
+						<LastModified Value="2016-12-14 19:06:31"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\aaaa\new_tasks_manager"/>
+							<Right Value="V:\sogou_branches\taskmanager\cloudtask"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="1.json &lt;--> 200.json">
+						<LastModified Value="2016-12-14 13:01:23"/>
+						<Specs>
+							<Left Value="K:\kp_163_zhu\source\javascript\b不规则json转规则json\1.json"/>
+							<Right Value="K:\kp_163_zhu\source\javascript\b不规则json转规则json\200.json"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="task_list.ts">
+						<LastModified Value="2016-12-12 19:02:46"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\ui - 副本\manager\task_list.ts"/>
+							<Right Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\task_list.ts"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDataCompareSession Value="task_list.html">
+						<LastModified Value="2016-12-12 18:52:22"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\ui - 副本\manager\task_list.html"/>
+							<Right Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\task_list.html"/>
+						</Specs>
+					</TDataCompareSession>
+					<TDataCompareSession Value="job_list.html">
+						<LastModified Value="2016-12-12 18:49:04"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\ui - 副本\manager\job_list.html"/>
+							<Right Value="V:\sogou_branches\taskmanager\cloudtask\www\ui\job_list.html"/>
+						</Specs>
+					</TDataCompareSession>
+					<TDirCompareSession Value="ui &lt;--> ui - 副本">
+						<LastModified Value="2016-12-12 18:49:04"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\taskmanager\cloudtask\www\ui"/>
+							<Right Value="V:\sogou_branches\taskmanager\cloudtask\www\ui - 副本"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="zhannei &lt;--> cloudtask">
+						<Filters>
+							<NameFilter Value="-.\.gitignore;-.\.project;-.\.thinkjsrc;-.\cloudtask.iml;-.\coudtask.iml;-.\en.js;-.\enclose__package.bat;-.\index.html;-.\nexe__package.bat;-.\nohup.out;-.\npm_i_.bat;-.\package.json;-.\pm2.json;-.\pv.txt;-.\README.md;-.\result.txt;-.\spider_baidu.js;-.\start.sh;-.\start_livereload.bat;-.\zhannei.iml;-.\.git\;-.\.idea\;-.\app\;-.\doc\;-.\docs\;-.\node_modules\;-.\test\;-.\tmp\;-.\view\"/>
+						</Filters>
+						<LastModified Value="2016-12-12 16:05:44"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\zhan_nei\zhannei"/>
+							<Right Value="V:\sogou_branches\taskmanager\cloudtask"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="ui &lt;--> 校园搜索(zhannei)">
+						<LastModified Value="2016-12-07 13:46:05"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\zhan_nei\zhannei\www\ui"/>
+							<Right Value="V:\sogou_branches\zhan_nei\校园搜索(zhannei)"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="pc_547172 &lt;--> pc_resin_tr">
+						<LastModified Value="2016-12-05 14:30:36"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\pc_547172"/>
+							<Right Value="W:\sogou_work\pc\pc_resin_tr"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="oms相关说明.txt &lt;--> reademe.txt">
+						<CodePageOverride>
+							<Right Value="65001"/>
+						</CodePageOverride>
+						<LastModified Value="2016-12-02 12:46:56"/>
+						<Specs>
+							<Left Value="W:\sogou_work\oms\sogou_oms\docs\oms相关说明.txt"/>
+							<Right Value="W:\sogou_work\oms\sogou_oms\docs\reademe.txt"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="IDEA &lt;--> IDEA2016.2.5_162.2228.15">
+						<LastModified Value="2016-11-24 14:04:58"/>
+						<Specs>
+							<Left Value="C:\soft\JetBrains\IDEA"/>
+							<Right Value="C:\soft\JetBrains\IDEA2016.2.5_162.2228.15"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDataCompareSession Value="1.html &lt;--> 2.html">
+						<LastModified Value="2016-11-17 11:07:43"/>
+						<Specs>
+							<Left Value="C:\Users\zhujianmin\Desktop\zTree_v3-master\demo\cn\super\1.html"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\zTree_v3-master\demo\cn\super\2.html"/>
+						</Specs>
+					</TDataCompareSession>
+					<TTextCompareSession Value="searchtool_common.js &lt;--> searchtool_common.tsx">
+						<LastModified Value="2016-11-16 15:58:21"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\searchtools\searchtool_front\src\main\webapp\jsx\searchtool_common.js"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front\src\main\jsx\searchtool_common.tsx"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="searchtool_front">
+						<Filters>
+							<NameFilter Value="-.\.git\;-.\.idea\;-.\.svn\"/>
+						</Filters>
+						<LastModified Value="2016-11-16 14:38:21"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\searchtools\searchtool_front.rar\searchtool_front"/>
+							<Right Value="V:\sogou_branches\searchtools\searchtool_front"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="searchtool_front &lt;--> searchtools">
+						<Filters>
+							<NameFilter Value="-.\.gitignore;-.\mvn_clean_package.bat;-.\mvn_jettyRun.bat;-.\package.json;-.\pom.xml;-.\searchtools.iml;-.\tsc_start_watch.bat;-.\tsconfig.json;-.\tsd.json;-.\.svn\;-.\.git\;-.\.idea\;-.\docs\;-.\typings\"/>
+						</Filters>
+						<LastModified Value="2016-11-16 14:37:29"/>
+						<Specs>
+							<Left Value="V:\sogou_branches\searchtools\searchtool_front"/>
+							<Right Value="C:\Users\zhujianmin\Desktop\searchtools"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="__repository_sogou &lt;--> repository_sogou">
+						<LastModified Value="2016-11-10 17:49:10"/>
+						<Specs>
+							<Left Value="C:\_tools_data\sogou_work\__repository_sogou"/>
+							<Right Value="C:\_tools_data\sogou_work\repository_sogou"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+				</Items>
+			</TSessionFolder>
+			<TDirCompareSession>
+				<State>
+					<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+				</State>
+			</TDirCompareSession>
+			<TTextCompareSession>
+				<State>
+					<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+					<ShowContext Value="True"/>
+				</State>
+			</TTextCompareSession>
+		</Items>
+	</TSessionFolder>
+</BCSessions>

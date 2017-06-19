@@ -1,0 +1,34 @@
+;aiu;
+
+[update32_11]
+ProductVersion=11.0.5.0
+Name=EmEditor Professional (32-bit) Version 11.0.5
+URL=http://www.emeditor.com/pub/emed32_11.0.5.exe
+Size=12662192
+ReleaseDate=07/02/2012
+MD5=c4980cbc157b66a0cc25a22d754c3871
+ServerFileName=emed32_11.0.5.exe
+Flags=SilentInstall
+FilePath=[APPDIR]EmEditor.exe
+Version=11.0.5.0
+Description=Version 11.0.5 is available. Please see EmEditor Home Page (www.emeditor.com) for details.
+BugFix=Fixed the bug where a regular expression search might have crashed when a very long line is searched.
+AutoCloseApplication=[APPDIR]emeditor.exe
+AutoCloseApplication1=[APPDIR]emedtray.exe
+
+[update32_12]
+ProductVersion=12.0.11.0
+Name=EmEditor Professional (32-bit) Version 12.0.11
+URL=http://www.emeditor.com/pub/emed32_12.0.11.exe
+Size=13308312
+ReleaseDate=27/02/2013
+MD5=6a7b1bfd1842fe4140fe2ef51dacea05
+ServerFileName=emed32_12.0.11.exe
+Flags=SilentInstall|Critical
+FilePath=[APPDIR]EmEditor.exe
+Version=12.0.11.0
+Description=Version 12.0.11 is available. The registration key for v12 is different from the key for v11. If you are using v11, you might need to purchase an upgrade. Please see EmEditor Home Page (www.emeditor.com) for details. This version doesn't support Windows 2000.
+BugFix=Fixed the bug where EmEditor might have displayed a message box "An application error has occurred in the plug-in: WordComplete.dll ..." or crashed on a certain version of Windows XP.
+BugFix1=Fixed the bug where EmEditor might have crashed after plug-in EE_LOAD_FILEA or EE_LOAD_FILEW message while a window was being split.
+AutoCloseApplication=[APPDIR]emeditor.exe
+AutoCloseApplication1=[APPDIR]emedtray.exe

@@ -1,0 +1,35 @@
+var v="[{\"EndTime\":\"2012-04-01 18:00:00\",\"Flow\":\"200\",\"FromTank\":\"Tank01\",\"OilType\":\"ÒÁÖØ\",\"Order\":\"900001\",\"StartTime\":\"2012-04-01 12:00:00\",\"ToTank\":\"Tank02\",\"Vol\":\"900\"},{\"EndTime\":\"2012-04-01 18:00:00\",\"Flow\":\"200\",\"FromTank\":\"Tank03\",\"OilType\":\"É³Çá\",\"Order\":\"900002\",\"StartTime\":\"2012-04-01 12:00:00\",\"ToTank\":\"Tank04\",\"Vol\":\"100\"}]";
+
+ 
+var hs = [];
+var vs = [];
+var obj = [];
+try{
+	eval("obj="+lst[i].value);
+}catch(e){}
+if(obj.length>0){
+	var one=obj[0];
+	var heads=[]
+	for(var kname in one){
+		heads[kname]=kname
+	}
+	for(var kname in heads){
+		hs.push(kname)
+	}
+	for(var i=0;i<obj.length;i++){
+		var row=obj[i];
+		if (vs[i] == undefined) {
+			vs[i] = [];
+		}
+		for(var colIndex=0;colIndex<hs.length;colIndex++){
+			var value=undefined;
+			try{
+				eval("value=row."+hs[colIndex])
+			}catch(e){}
+			if(value==undefined){
+				value="";
+			}
+			vs[i].push(value);
+		}
+	}
+}

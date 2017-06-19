@@ -1,0 +1,450 @@
+
+            SecureCRT(R) 7.3.4 (Official) -- June 16, 2015
+
+            Copyright (C) 1995-2015 VanDyke Software, Inc.
+                        All rights reserved.
+
+
+This file contains a SecureCRT product history.  It includes lists 
+of new features, changes, and bug fixes sorted by release.  For a 
+product description, installation notes, registration information,
+and contact information, please refer to Readme.txt (downloaded 
+with this installation).
+
+
+Changes in SecureCRT 7.3.4 (Official) -- June 16, 2015
+------------------------------------------------------
+
+Bug fixes:
+
+  - If a tabbed session was closed while a transfer operation in that
+    session was in progress, SecureCRT crashed.
+  - When SecureCRT and SecureFX were integrated, if the configuration
+    passphrase was changed in one application while the other
+    application was running, the sensitive data could have been
+    encrypted incorrectly.
+  - The personal data folder could not be merged with the configuration
+    folder if the personal data folder contained any empty session
+    folders.
+  - When the Session Manager was in autohide mode and a session was
+    connected, if a menu was activated using the keyboard and dismissed
+    by pressing ESC, and then the keyboard accelerator to display the
+    Session Manager was pressed, the Session Manager gained focus but
+    remained hidden.
+  - SSH2: SecureCRT could crash when a smart card was used for
+    authentication.
+  - Windows: On Windows 10, the last line of the terminal session was
+    partially hidden by the bottom of the application window.
+  - Windows: On Windows 10, moving the SecureCRT window caused it to get
+    smaller.
+  - Windows: On Windows 10, every time a tiled session was connected, it
+    shrunk by one row and one column.
+  - Windows: On Windows 10, if the session rows and columns were changed
+    in the Session Options dialog, the view size was one row and one
+    column less than the specified values.
+  - Windows: PKCS11 authentication failed with FortiToken ePass2003.
+  - Windows: CAPI authentication failed with the Fortinet FTK300 token.
+  - Mac: Due to a change in OS X 10.10 (Yosemite), there can be more
+    than one $PATH, which meant that the $PATH variable used by
+    SecureCRT might not have contained the expected paths.
+  - Mac: If there were multiple SecureCRT application windows, the
+    keyboard accelerators COMMAND+I and COMMAND+M did not work unless
+    the Session Manager was open in all the SecureCRT windows.
+  - Mac: The SecureCRT version should not have been displayed in the
+    title bar for official releases.
+  - Mac/Linux: In the Manage Agent Keys dialog, if all keys were removed
+    and then the Remove button was pressed again, SecureCRT crashed.
+  - Mac/Linux: The Help contents, search, and glossary were not
+    available.
+
+
+Changes in SecureCRT 7.3.3 (Official) -- March 31, 2015
+-------------------------------------------------------
+
+New features:
+
+  - Previous versions of SecureCRT supported saving passwords and other
+    sensitive data.  In order to improve the security of this feature,
+    SecureCRT now requires a passphrase to be created the first time
+    version 7.3.3 runs.  This passphrase will be used to encrypt and
+    decrypt sensitive data stored in the session database, such as
+    passwords and send/expect logon scripts.
+
+Bug fixes:
+
+  - SecureCRT hung if logon actions were being edited for multiple
+    sessions and one of the strings being replaced was blank.
+  - The crash reporter dialog, which reports crashes for previous runs
+    of SecureCRT, was being displayed after the SecureCRT window was
+    displayed, which caused confusion about when the crash had occurred.
+  - SSH1: If the "Auto reconnect" global option was set and a session
+    that did not have the username and/or password saved got
+    disconnected, if the user did not respond to the username or
+    password prompts, multiple prompts were displayed until SecureCRT
+    eventually crashed.
+
+
+Changes in SecureCRT 7.3.2 (Official) -- February 26, 2015
+----------------------------------------------------------
+
+Changes:
+
+  - The escape sequence ESC E (DECNEL, next line) is treated like a CR
+    (or CRLF) so that the command on that line gets logged.
+  - SSH2: When attempting to authenticate using a CAPI key or certificate
+    with a smart card, if the card returns an error, SecureCRT attempts
+    to continue authentication, which allows authentication to succeed
+    with certain smart cards, such as GoldKey.
+
+Bug fixes:
+
+  - SecureCRT crashed when attempting to run a Perl script using
+    ActiveState ActivePerl 5.18 and 5.20.  SecureCRT still cannot run the
+    script.  Switching ActivePerl 5.16 is recommended.
+  - When the global option "Save window state for each session" was set
+    and SecureCRT was in full-screen mode, if a local shell session was
+    opened or a session was cloned, SecureCRT went out of full-screen
+    mode.
+  - If autohide was on for the session manager, the most recently opened
+    session was not selected when the session manager was shown again.
+  - If a keymap was modified through a script, it was not always
+    reloaded.
+  - When using the Connect dialog, if a session with saved credentials
+    was connected by double clicking, extraneous text appeared in the
+    session window before the prompt.
+  - Telnet: When connected to a session with a character or line send
+    delay specified, the delay was not honored when a script sent a
+    string.
+  - Windows: On Windows 8.1, SecureCRT crashed if TAPI was selected as
+    the protocol in the Quick Connect dialog and the Configure button was
+    pressed.
+  - Mac/Linux: If a local shell session was started from an alias, it was
+    not possible to interrupt output using CTRL+C.
+  - Mac/Linux: If the global option "Show horizontal scroll bar" was set
+    and the connected session had the session options "Show horizontal
+    scroll bar" and "Synchronize view to size" set, after performing a
+    long directory list that filled the screen, the last row had extra
+    space below it.
+  - Mac/Linux: The crash reporter dialog did not show crash information
+    for the most recent crash.
+  - Linux: The background color of the space to the right of the tabbed
+    sessions in the tab bar was the background color of the default
+    session's color scheme instead of the background color of the tabs.
+  - Linux: The global INI-file-only option "Toolbar Style" was not
+    honored if it was set to a value other than 2.
+
+
+Changes in SecureCRT 7.3.1 (Official) -- December 4, 2014
+---------------------------------------------------------
+
+Changes:
+
+  - In order to address the POODLE attack, SSL 3.0 is disabled by
+    default.
+  - SSH2: When using public-key authentication, if the .PUB file is
+    not present, it is created automatically so that agent will work.
+
+Bug fixes:
+
+  - SecureCRT could hang when attempting to stop using a personal
+    data folder.
+  - Quotes were not supported in regular expressions used for keyword
+    highlighting.
+  - If the global option "Exit when last session is disconnected" was
+    set and the session option "Clear on disconnect" was set for a
+    session and that session was connected twice, if one of the
+    sessions was disconnected, it was not cleared.
+  - It was possible to activate the menu bar using a keyboard
+    accelerator when the menu bar was disabled.
+  - Windows: The 32-bit version of SecureCRT could crash when the
+    "Prompt send delay" option was set for the session and text was
+    pasted into the session.
+  - Windows: The "Default.mnu" file did not include "Update Now" in
+    the Help menu.
+  - Mac: SecureCRT crashed when attempting to create a Telnet session
+    that used an SSH1 or SSH2 session as a firewall.
+  - Mac: X11 forwarding did not work with XQuartz on Mac OS 10.10
+    (Yosemite).
+  - Mac/Linux: After dragging a tabbed session within the application
+    window to change its order, it was no longer possible to drag a
+    tabbed session to a different window.
+  - Mac/Linux: SecureCRT did not honor the shell setting for a local
+    shell when it was set by the "chsh" command.
+  - Mac/Linux: If focus was in the session manager when it was closed,
+    it remained there.
+
+
+Changes in SecureCRT 7.3 (Official) -- October 23, 2014
+-------------------------------------------------------
+
+Changes:
+
+  - Mac: The keyboard shortcut COMMAND+N opens a new window when
+    the main application window has focus as it did in version 7.2.
+
+Bug fixes:
+
+  - SecureCRT crashed when attempting display the information for an
+    incorrectly formatted SSH host key.
+  - Windows: Selecting the "Update Now" menu item did not reset the
+    clock used to check for updates every 30 days.
+
+
+Changes in SecureCRT 7.3 (Beta 5) -- October 2, 2014
+----------------------------------------------------
+
+Changes:
+
+  - In order to prevent potential data loss, merging the personal data
+    store with the configuration folder is only done if the session
+    structure is exactly the same for both.
+
+Bug fixes:
+
+  - After a session failed to connect because the SSH2 server was not
+    available and the session was changed to use Telnet and logon
+    actions were added, SecureCRT crashed when attempting to connect to
+    the modified session.
+  - The previously selected session was not remembered when the session
+    manager was closed and re-opened.
+  - Windows/Mac: Complex regular expressions used for keyword
+    highlighting could cause SecureCRT to crash.
+  - Mac: The "Connect in Tab" icon in the session manager did not look
+    correct on OS X Yosemite (10.10) Retina displays.
+  - Mac: The clear button in the session filter edit box was very small
+    on Retina displays.
+
+
+Changes in SecureCRT 7.3 (Beta 4) -- September 23, 2014
+-------------------------------------------------------
+
+New features:
+
+  - Windows: Added an "Update Now" menu item to see if a new version of
+    SecureCRT is available and if there is, clicking a button downloads
+    and installs it.
+
+Changes:
+
+  - The maximum length for a regular expression for keyword highlighting
+    was increased to 256 characters.
+  - Substitution paramters such as ${VDS_INSTALL_PATH} can be used in a
+    script filename.
+  - Mac: Since the minimize and zoom buttons were always grayed out,
+    they are hidden when SecureCRT is used with the Moom session manager.
+
+Bug fixes:
+
+  - If a regular expression that caused everything to be highlighted was
+    specified for a session and the session window was made narrow enough
+    for command output to wrap, some words did not get highlighted.
+  - If the width of the session manager was resized while it was in
+    autohide mode, the new width was not saved when SecureCRT exited.
+  - If autohide mode was on for the session manager, then the session
+    manager was closed and reopened and autohide was turned off,
+    changing any value in the Session Options dialog caused autohide
+    to be turned back on.
+  - In the Keyword List Properties dialog, if a keyword was selected
+    when a new word was added, pressing the "Set Color" button and
+    selecting a color caused the previously selected and new keyword to
+    be changed.
+  - In the Keyword List Properties dialog, after changing the color for
+    a keyword, the keyword was not highlighted in the keyword list.
+  - Mac: If the Connect dialog was used instead of the Session Manager,
+    using the keyboard shortcut COMMAND+I to move focus to the session
+    filter box caused SecureCRT to crash.
+
+
+Changes in SecureCRT 7.3 (Beta 3) -- September 9, 2014
+------------------------------------------------------
+
+New features:
+
+  - Added a search filter to the Connect dialog, which helps find
+    sessions quickly, especially when a large number of sessions have
+    been saved.
+
+Changes:
+
+  - The logic used for matching word delimiters was improved so that
+    keyword and regular expressions (Windows and Mac only) that
+    contain word delimiters do not affect keywords and regular
+    expressions that do not contain word delimiters.
+  - The order of keywords can now be specified for keyword
+    highlighting.
+  - SSH2: The modulus for the Diffie-Hellman key exchange algorithms
+    can be set from 1024 to 8192.
+
+Bug fixes:
+
+  - Saved passwords could be deleted inadvertently by pressing ENTER
+    when focus was in the Password field of the Password Properties
+    dialog.
+  - When using the filter bar to search for sessions, the session
+    tree did not return to the original state if the option "Save
+    expanded folder state in connect dialog" was off.
+  - Windows/Mac: When more than one rule (e.g., a keyword and a
+    regular expression) matched a word, sometimes the word was not
+    highlighted using the right color.
+  - Windows: Cloned sessions were opened to the right of all sessions
+    instead of immediately to the right of the original session.
+  - Mac: The keyboard shortcut COMMAND+N opened a new window when
+   "Open in a tab" was selected.
+  - Linux: SecureCRT crashed if /script was specified on the command 
+    line.
+
+
+Changes in SecureCRT 7.3 (Beta 2) -- August 26, 2014
+----------------------------------------------------
+
+Changes:
+
+  - ANSI emulation now supports the CHA sequence (CSI pn G).
+  - The keyboard shortcut CTRL+A can be used to select all text in
+    the Send String field in the Map Button dialog.
+  - In the session manager, when text is entered in the filter bar,
+    the first matching session gets selected.
+  - Windows: In the session manager, the filter bar can be cleared by
+    pressing the ESCAPE key or the "X" button.
+
+Bug fixes:
+
+  - Mac: SecureCRT could crash when sessions were dragged between
+    application windows.
+  - Mac: SecureCRT crashed if focus was in the filter bar and
+    SecureCRT was closed using CMD+Q.
+  - Mac: If a three-finger swipe was used to select text in the
+    terminal window and then CMD+V was used to paste, the wrong text
+    was pasted or pasting was very slow.
+  - Mac: Attempting to convert a private key to OpenSSH format failed
+    to export the key.
+  - Mac: If there was text in the clipboard and the Find dialog was
+    accessed using CMD+F, pressing CMD+V caused the text to be  pasted
+    in the terminal session rather than the Find dialog.
+  - Linux: SecureCRT crashed if the session manager was enabled and
+    SecureCRT was closed using ALT+F4.
+  - Linux: When sessions were tiled, pressing ALT+ENTER on a session
+    in the session manager did not open the session properties dialog.
+  - Mac/Linux: In the session manager, if the filter bar was cleared
+    after being used to filter sessions, the session tree was not
+    restored to its original state.
+  - Mac/Linux: Focus could be incorrectly taken out of the connect bar
+    when the session manager was automatically hidden.
+  - Mac/Linux: The Export Settings and Import Settings dialogs did not
+    automatically scroll when the progress information was displayed.
+
+
+Changes in SecureCRT 7.3 (Beta 1) -- August 7, 2014
+---------------------------------------------------
+
+New features:
+
+  - Windows/Mac: Added support for regular expressions in keyword
+    highlighting.
+  - Added the ability to specify colors for keyword highlighting.
+  - In keyword highlighting, the styles (reverse video, bold, and
+    color) can be combined.
+  - Added the ability to edit keywords used for keyword highlighting.
+  - Added support for exporting and importing SecureCRT settings to
+    and from XML, which makes it easier to copy settings from one
+    machine to another.
+  - Mac/Linux: Added a session manager that can be used in place of
+    the modal Connect dialog.  The session manager can be in a pane
+    in the SecureCRT window or can be an undocked modeless dialog.
+  - Added a search filter to the session manager, which helps find
+    sessions quickly, especially when a large number of sessions have
+    been saved.
+  - Added the ability to connect to a remote system through a named
+    pipe.
+  - Added the ability to script Kermit file transfers.
+  - Added the ability to specify the substitution parameter %USERNAME%
+    as a session username.
+  - Added a new session option "Position cursor on left click" that
+    allows the mouse to move the cursor to a different location.
+  - Added a new session option "Enable alternate screen switching".
+  - Added an option to disable the hover text for buttons on the button
+    bar.
+  - Added a new menu item "Close All Sessions" to the tab menu, which
+    allows all sessions to be closed without closing the SecureCRT
+    window.
+  - Added a new global option "Exit SecureCRT when last session is
+    closed" that specifies whether or not the SecureCRT window should
+    be closed when the last session is closed.
+  - Added a global option to swap ENTER and CTRL+ENTER in the command
+    (chat) window.
+  - Added the ability for the command (chat) window to be controlled
+    independently in each SecureCRT window.
+  - Mac: Added support for Finder tags.
+
+Changes:
+
+  - Added the ability to store keys larger than 2048 bits in agent.
+  - Added the ability to generate keys larger than 2048 bits.
+  - When connecting a session, if there's an agent key associated
+    with the session, it is tried first.  This can help prevent a
+    session from failing to connect because the maximum number of
+    authentication retries was exceeded.
+  - The MD5 and SHA-1 fingerprints are now displayed in dialogs that
+    show host key information.
+  - When multiple sessions are being edited, if a single expect or send
+    string is changed in the session automated logon option, only the
+    single string is changed in all the sessions.  Previously, the
+    entire expect/send block was written to the sessions.
+  - Added the ability to send a disconnected session to a new window.
+  - Log files are saved with a .log extension by default unless a
+    different extension is specified.
+  - Font information was added to the information stored in the
+    personal data folder.
+  - Mac: The folder used when a key or button is mapped to
+    MENU_LOG_SESSION is the same as the folder used when "Log
+    Session" is selected from the File menu.
+
+Bug fixes:
+
+  - SecureCRT could crash if multiple sessions specified the same
+    session as a firewall (i.e., jump host).
+  - SecureCRT could crash when the send delay "Prompt" option was set
+    and a large amount of text was pasted into a session.
+  - SecureCRT could crash when several GNS3 sessions were connected in
+    rapid succession.
+  - SecureCRT could hang if a partial execute escape sequence was
+    received.
+  - When using mcedit (Midnight Commander editor), incorrect text was
+    selected when switching between multiple screens or if the SHIFT
+    key was down and the mouse moved, which caused incorrect text to
+    be pasted.
+  - If a session was resized and then another session was opened,
+    the application window was changed to the size before the
+    session was resized.
+  - When a color scheme that was being used by two or more open sessions
+    was changed from the Session Options dialog, only the active tab was
+    updated to reflect the change.
+  - If a button was mapped to the menu function
+    CLEAR_SCREEN_AND_SCROLLBACK, if the SHIFT key was held while the
+    button was clicked, only the current session was cleared.
+  - If the system resolution was changed while SecureCRT was running,
+    the font information in the Session Options dialog did not get
+    updated.
+  - TAPI: If sessions were copied from one machine to another and the
+    the modem in the TAPI sessions did not exist, SecureCRT did not
+    indicate that there was a problem when the session was edited and
+    displayed a cryptic error when attempting to connect.
+  - Windows: Deleting the same session from multiple instances of
+    SecureCRT using the session manager could cause all the sessions
+    to be deleted.
+  - Windows: If the "Black" display theme was being used by SecureCRT
+    and RDP was used to connect from another system to the local system
+    and then closed, SecureCRT's title bar was missing.
+  - Windows: When using the session manager, if the default session
+    was changed to include a username and a session was connected,
+    SecureCRT prompted for the username.
+  - Mac/Linux: SecureCRT could hang or cause 100% CPU usage when the
+    terminal protocol was changed.
+  - Mac/Linux: If the posix directory was a symbolic link, it caused
+    SecureCRT to hang when attempting to open the Session Options
+    dialog.
+  - Mac/Linux: When specifying a log file for a session, if the
+    filter was set to "*.txt", a ".log" extension was used instead.
+  - Mac/Linux: If SecureCRT and SecureFX were running and a change was
+    made to the global or session options in one of the applications,
+    the changes were not picked up by the other application.

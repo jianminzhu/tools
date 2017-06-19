@@ -1,0 +1,36 @@
+var str =document.selection.Text;
+document.selection.Replace("字段名\\t字段类型\\t描述说明\\t是否为空\\t是否主键\\s{1,}\\n","",eeFindNext | eeFindSaveHistory | eeFindReplaceEscSeq | eeReplaceAll | eeFindReplaceRegExp);
+var cols=str.split("\n")
+var tablenames=cols[0].replace(/(.{1,})(tsearch_.{1,})/,"$1 $2").replace("(","").replace(")","").replace("（","").replace("）","").split(" ");
+var tableComment=tablenames[0]
+var tablename=tablenames[1];
+var colObjs=[];
+for(var i=1;i<cols.length;i++){
+	var items=cols[i].split("\t")
+	var name=items[0];
+	var type=items[1];
+	var comment="";
+	for(var j=2;j<items.length;j++){
+		comment+=items[i];
+	}
+	colObjs[colObjs.length]={name:name,type:type,comment:comment}
+}
+
+
+var outStrArr=[];
+outStrArr.push("CREATE TABLE "+tableComment+"\n("); 
+for(var i=0;i<colObjs.length;i++){
+	var cobj=colObjs[i];
+	var colstr=	cobj.name+" "+cobj.type+" "
+	if(i<colObjs.length-1){
+		 colstr+","
+	}
+	outStrArr.push(colstr)
+}
+outStrArr.push(")");
+outStrArr.push("COMMENT ON TABLE "+tablename+"'"+tableComment+"'");
+for(var i=0;i<colObjs.length;i++){
+	var cobj=colObjs[i];
+	outStrArr.push("COMMENT ON COLUMN "+tablename+"."+cobj.name+ " IS '"+cobj.comment+"'" )
+}
+document.selection.Text=outStrArr.join("\n")

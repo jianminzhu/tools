@@ -1,0 +1,106 @@
+. 2015-07-02 12:08:47.053 --------------------------------------------------------------------------
+. 2015-07-02 12:08:47.053 WinSCP Version 5.7.4 (Build 5553) (OS 6.1.7601 Service Pack 1 - Windows 7 Professional)
+. 2015-07-02 12:08:47.054 Configuration: T:\tools\winscp550\WinSCP.ini
+. 2015-07-02 12:08:47.054 Log level: Normal
+. 2015-07-02 12:08:47.054 Local account: SOGOU-INC\zhujianmin
+. 2015-07-02 12:08:47.054 Working directory: T:\tools\winscp550
+. 2015-07-02 12:08:47.054 Process ID: 8548
+. 2015-07-02 12:08:47.054 Command-line: winscp.exe  root@10.136.115.203 /console /log=%log_file%  /command   "option batch continue" "option confirm off"  "option transfer binary" "open sftp://root@10.136.115.203/" "cd %server_dir%" "upload %down_to_file% %server_dir%" "exit" 
+. 2015-07-02 12:08:47.054 Time zone: Current: GMT+8 (中国标准时间), No DST
+. 2015-07-02 12:08:47.054 Login time: 2015年7月2日 12:08:47
+. 2015-07-02 12:08:47.054 --------------------------------------------------------------------------
+. 2015-07-02 12:08:47.055 Script: Retrospectively logging previous script records:
+< 2015-07-02 12:08:47.055 Script: Opening session using command-line parameter in scripting is deprecated. Use 'open' command instead.
+. 2015-07-02 12:08:47.055 --------------------------------------------------------------------------
+. 2015-07-02 12:08:47.055 Session name: root@10.136.115.203 (Site)
+. 2015-07-02 12:08:47.055 Host name: 10.136.115.203 (Port: 22)
+. 2015-07-02 12:08:47.055 User name: root (Password: Yes, Key file: No)
+. 2015-07-02 12:08:47.055 Tunnel: No
+. 2015-07-02 12:08:47.055 Transfer Protocol: SFTP (SCP)
+. 2015-07-02 12:08:47.055 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+. 2015-07-02 12:08:47.055 Disable Nagle: No
+. 2015-07-02 12:08:47.055 Proxy: none
+. 2015-07-02 12:08:47.055 Send buffer: 262144
+. 2015-07-02 12:08:47.055 SSH protocol version: 2; Compression: No
+. 2015-07-02 12:08:47.055 Bypass authentication: No
+. 2015-07-02 12:08:47.055 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+. 2015-07-02 12:08:47.055 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+. 2015-07-02 12:08:47.055 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+. 2015-07-02 12:08:47.055 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A
+. 2015-07-02 12:08:47.055 Simple channel: Yes
+. 2015-07-02 12:08:47.055 Return code variable: Autodetect; Lookup user groups: A
+. 2015-07-02 12:08:47.055 Shell: default
+. 2015-07-02 12:08:47.055 EOL: 0, UTF: 2
+. 2015-07-02 12:08:47.055 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+. 2015-07-02 12:08:47.055 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+. 2015-07-02 12:08:47.055 SFTP Bugs: A,A
+. 2015-07-02 12:08:47.055 SFTP Server: default
+. 2015-07-02 12:08:47.055 Local directory: C:\Users\zhujianmin\Documents, Remote directory: /search/sogou_work/my_branchs/20150505.dev.zhujianmin.req.a_utf-8, Update: Yes, Cache: Yes
+. 2015-07-02 12:08:47.055 Cache directory changes: Yes, Permanent: Yes
+. 2015-07-02 12:08:47.055 DST mode: 1
+. 2015-07-02 12:08:47.055 --------------------------------------------------------------------------
+. 2015-07-02 12:08:47.055 Looking up host "10.136.115.203"
+. 2015-07-02 12:08:47.055 Connecting to 10.136.115.203 port 22
+. 2015-07-02 12:08:47.073 Server version: SSH-2.0-OpenSSH_5.3
+. 2015-07-02 12:08:47.073 Using SSH protocol version 2
+. 2015-07-02 12:08:47.073 We claim version: SSH-2.0-WinSCP_release_5.7.4
+. 2015-07-02 12:08:47.076 Doing Diffie-Hellman group exchange
+. 2015-07-02 12:08:47.078 Doing Diffie-Hellman key exchange with hash SHA-256
+. 2015-07-02 12:08:47.694 Verifying host key rsa2 0x23,0xa7460cfec179b31c 7fd6e246913968ec 943d2c2bb7572949 e8b74d75e20a1664 cc824743e391e9cb 3f0b5b0c4ffe803a 4fd9e9e78f4dbbb0 20af8c3e1d3437d0 7ac6c370faa56023 dd22ab36e818b88a cb3e384aa8b64b2c f5b9e87755db057e 8064be4aad2211fd 6b24e130281f7559 7a73a5b233bf9322 f58dac74dc9b084f 48a7d1fa49277bb2 3ef72bc0ae3b959b 1647c896e97696c6 b308ff3484636690 cbe747cc98b49705 f09998c92333b8f9 fd915859f9198352 cf11f318306bb7cf 725975c08baa895f 4acefe6a33f4c2a5 1e2eed7c3831e3c5 74a5d36b2a56d31d 17a01ecc011ff865 b4621362b9714ab6 4cf9d586663923d8 c27aedeae854cee3  with fingerprint ssh-rsa 2048 38:4e:ad:e4:35:3c:96:b0:36:24:5f:78:6b:c6:58:48
+. 2015-07-02 12:08:47.695 Host key matches cached key
+. 2015-07-02 12:08:47.695 Host key fingerprint is:
+. 2015-07-02 12:08:47.695 ssh-rsa 2048 38:4e:ad:e4:35:3c:96:b0:36:24:5f:78:6b:c6:58:48
+. 2015-07-02 12:08:47.695 Initialised AES-256 SDCTR client->server encryption
+. 2015-07-02 12:08:47.695 Initialised HMAC-SHA-256 client->server MAC algorithm
+. 2015-07-02 12:08:47.695 Initialised AES-256 SDCTR server->client encryption
+. 2015-07-02 12:08:47.695 Initialised HMAC-SHA-256 server->client MAC algorithm
+! 2015-07-02 12:08:47.736 Using username "root".
+. 2015-07-02 12:08:47.738 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+. 2015-07-02 12:08:47.738 Using stored password.
+. 2015-07-02 12:08:47.739 Sent password
+. 2015-07-02 12:08:47.744 Access granted
+. 2015-07-02 12:08:47.745 Opening session as main channel
+. 2015-07-02 12:08:47.748 Opened main channel
+. 2015-07-02 12:08:47.792 Started a shell/command
+. 2015-07-02 12:08:47.792 --------------------------------------------------------------------------
+. 2015-07-02 12:08:47.792 Using SFTP protocol.
+. 2015-07-02 12:08:47.794 Doing startup conversation with host.
+> 2015-07-02 12:08:47.794 Type: SSH_FXP_INIT, Size: 5, Number: -1
+< 2015-07-02 12:08:47.857 Type: SSH_FXP_VERSION, Size: 95, Number: -1
+. 2015-07-02 12:08:47.858 SFTP version 3 negotiated.
+. 2015-07-02 12:08:47.858 Unknown server extension posix-rename@openssh.com="1"
+. 2015-07-02 12:08:47.858 Supports statvfs@openssh.com extension version "2"
+. 2015-07-02 12:08:47.858 Unknown server extension fstatvfs@openssh.com="2"
+. 2015-07-02 12:08:47.858 We believe the server has signed timestamps bug
+. 2015-07-02 12:08:47.858 We will use UTF-8 strings until server sends an invalid UTF-8 string as with SFTP version 3 and older UTF-8 string are not mandatory
+. 2015-07-02 12:08:47.858 Limiting packet size to OpenSSH sftp-server limit of 262148 bytes
+. 2015-07-02 12:08:47.858 Changing directory to "/search/sogou_work/my_branchs/20150505.dev.zhujianmin.req.a_utf-8".
+. 2015-07-02 12:08:47.858 Getting real path for '/search/sogou_work/my_branchs/20150505.dev.zhujianmin.req.a_utf-8'
+> 2015-07-02 12:08:47.858 Type: SSH_FXP_REALPATH, Size: 74, Number: 16
+< 2015-07-02 12:08:47.860 Type: SSH_FXP_NAME, Size: 151, Number: 16
+. 2015-07-02 12:08:47.860 Real path is '/search/sogou_work/my_branchs/20150505.dev.zhujianmin.req.a_utf-8'
+. 2015-07-02 12:08:47.860 Trying to open directory "/search/sogou_work/my_branchs/20150505.dev.zhujianmin.req.a_utf-8".
+> 2015-07-02 12:08:47.860 Type: SSH_FXP_LSTAT, Size: 74, Number: 263
+< 2015-07-02 12:08:47.862 Type: SSH_FXP_ATTRS, Size: 37, Number: 263
+. 2015-07-02 12:08:47.862 Getting current directory name.
+. 2015-07-02 12:08:47.862 Startup conversation with host finished.
+< 2015-07-02 12:08:47.863 Script: Active session: [1] root@10.136.115.203
+> 2015-07-02 12:08:47.863 Script: option batch continue
+< 2015-07-02 12:08:47.863 Script: batch           continue  
+< 2015-07-02 12:08:47.864 Script: reconnecttime   120       
+> 2015-07-02 12:08:47.865 Script: option confirm off
+< 2015-07-02 12:08:47.865 Script: confirm         off       
+> 2015-07-02 12:08:47.866 Script: option transfer binary
+< 2015-07-02 12:08:47.866 Script: transfer        binary    
+> 2015-07-02 12:08:47.867 Script: open sftp://root@10.136.115.203/
+< 2015-07-02 12:08:47.871 Script: Searching for host...
+< 2015-07-02 12:08:47.873 Script: Connecting to host...
+< 2015-07-02 12:08:48.523 Script: Authenticating...
+< 2015-07-02 12:08:48.566 Script: Using username "root".
+< 2015-07-02 12:08:48.568 Script: Authenticating with pre-entered password.
+< 2015-07-02 12:08:48.619 Script: Authenticated.
+< 2015-07-02 12:08:48.620 Script: Starting the session...
+< 2015-07-02 12:08:48.689 Script: Session started.
+. 2015-07-02 12:08:48.696 Closing connection.
+. 2015-07-02 12:08:48.696 Sending special code: 12
+. 2015-07-02 12:08:48.696 Sent EOF message

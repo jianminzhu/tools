@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/jquery.json-2.4.js"></script>
+<script src="js/trimpath-template-1.0.38.js"></script>
+<script src="js/widgets/w.tpl.js"></script>
+<script src="js/promise-0.1.1.min.js"></script>
+<script>
+function  setData(aaa){
+	ddd=aaa;
+}
+var Request = function(name) {
+    return new Promise(function(resolve, reject) {
+		var data="aaa";
+		setData(data);
+		resolve(data);
+    });
+};
+$(function(){
+	var p=Request();
+	p.then(function(data){
+		alert(data)
+	})
+
+})
+</script>
+</head>
+<body>
+	 <div></div>
+	 <div></div>
+</body>
+</html>

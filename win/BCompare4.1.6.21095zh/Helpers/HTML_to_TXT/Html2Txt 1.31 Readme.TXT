@@ -1,0 +1,73 @@
+ HTML2TXT ('HTML to text') **** (c) 1997 dg9ep
+--------------------------------------------
+
+  
+
+ Readme for HTML2TXT
+--------------------
+
+  This program (availble for DOS (html2txt.zip), OS/2 (html2tx2.zip)
+ and these so calles OS Win85 and WinNoT (html2t32.zip)) converts
+ HTML-Files into properly formated and readable ASCII (CP850
+ or ISO-8859-1) textfiles. It removes all tags, converts &; special
+ character and uses <h1>-<h6>, <hr>, <ul>, <li>, <ol>, <td> etc. tags for
+ formatting.
+
+  You can select weather get ISO-8859-1 (Windoze) or CP850 (DOS)
+ as output.
+
+  This Software is freeware and has a lot of omissions, but
+ it is IMHO very useful.
+
+  The history: I have written a documentation in HTML. But severeal
+ folks ask me to publish it in plain Text format too.
+
+  So i looked for a converter program and I found many programs,
+ but none of them 
+*  removes all tags 
+*  replace the special characters (the famous Umlaute!) 
+*  makes basic formatting 
+ so I have to write my own...
+
+  
+---------------------------------------------------------------------
+ usage:
+ 
+ HTML2TXT.EXE [-aw?h] [ infileHTML [outfileTXT] ]
+ 
+ if infileHTML or outfileTXT are omitted, standardinput / standardoutput
+ will be used, e.g.
+ 
+ HTML2TXT <faq.htm >faq.txt
+ 
+  Commandlineparameter:
+ 
+ -p stops every 25 line and waits for keystroke 
+ -d uses charset CP 850 (DOS) for output (Default) 
+ -w uses charset ISO-8859-1 (Windows) for output
+ 
+     Things to come
+---------------
+
+  
+*  Line length parameter (now fix at 63 or sth.) 
+*  support of the <alt>-parameter 
+*  support of the <align>-parameter 
+*  Better support of the <table>-Tag 
+*  Drag and drop for PM and Windoze (?) 
+*  Txt2Html-Program (??) 
+ 
+---------------------------------------------------------------------
+ Newer versions can be downloaded at http://ourworld.compuserve.com/homepages/WalterKoch/soft_htm.htm.
+ 
+
+ 
+ 
+
+ Written by W.Koch, DG9EP (walterk@ddorf.rhein-ruhr.de) 
+
+ 
+---------------------------------------------------------------------------
+Generated from html2txt.htm 
+by *** HTML2TXT ('HTML to text')  Version 1.31 (DOS), 2.Aug.97 (c)dg9ep *** 
+---------------------------------------------------------------------------

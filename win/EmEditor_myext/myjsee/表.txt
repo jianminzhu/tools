@@ -1,0 +1,18 @@
+CREATE TABLE ZEBRA.TSEARCH_SPIDER_TASK_LOG
+(
+  SITE		varchar2(20 BYTE),
+  msg_type	varchar2(20 BYTE),
+  PNO             INTEGER,
+  SUBPNO          INTEGER,
+  PAGE_URL        VARCHAR2(400 BYTE),
+  HTML            CLOB,
+  down_START_TIME DATE,
+  down_END_TIME   DATE,
+  down_status	  INTEGER,
+  down_error      VARCHAR2(400 BYTE),
+  parse_START_TIME       DATE,
+  parse_END_TIME         DATE,
+  parse_status	 INTEGER,
+  
+
+)

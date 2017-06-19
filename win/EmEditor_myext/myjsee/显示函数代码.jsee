@@ -1,0 +1,19 @@
+var TABLE_GROUP="TSEARCH2_group";//
+function next_url(it) {
+	return "";
+}
+function parse_data(it){
+	it.setSite("sina");
+	it.setPageType("group_info");
+	var data= it.parse();
+	var userInfo=data.get(0);
+	userInfo.put("site_type","2");
+	return  data;
+}
+function to_save(param) {
+	var sc=ForDbUtil.getSaveConfigAsSegment("group_info", "{table_name:'"+TABLE_GROUP+"'}"); 
+	ForDbUtil.dataToDb(DaoUtil.getDao(),param.get('data'),sc,TABLE_GROUP);
+	return true;
+}
+
+alert(parse_data.toString())

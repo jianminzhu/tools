@@ -1,0 +1,35 @@
+function getIpHour(fileName){ 
+  var hour=fileName.split("_")[0].split(".")[2];
+  var ip=fileName.split("_")[1].replace(".txt","")
+  return {ip:ip,hour:hour} 
+}
+function getAllRows(nLines,ip,hour){ 
+	var arr=[];
+	for(var line in nLines){
+		var a=nLines[line].split(" "); 
+		if(a.length >1){
+			arr.push({"url":a[0].replace("uri=",""),count:a[1],hour:hour,ip:ip})
+		}
+	}
+	return arr;
+}
+function genSql(table,cols,rows){ 
+	var arr=[]; 
+	for(var index in rows){
+		var cvals=[];
+		var row=rows[index]
+		
+		for(var index in cols){
+			var col=cols[index] 
+			cvals.push(row[col])
+		}
+		arr.push("insert into "+table+ " ('"+cols.join("','")+"') values ('"+cvals.join("','") +"');")
+	}
+	return arr
+}
+var ipHour=getIpHour(document.Name)
+document.selection.SelectAll();
+nLines = document.selection.text.split("\n"); 
+allrows = getAllRows(nLines,ipHour["ip"],ipHour["hour"])
+var insertSqls=genSql("resin_url_count",['ip','count','url','hour' ],allrows)  
+document.write(insertSqls.join("\n"))

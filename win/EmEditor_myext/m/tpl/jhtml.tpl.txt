@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title></title>
+<script type="text/javascript" src="${js.jquery}"></script>
+<script type="text/javascript" src="${js.underscore}"></script>
+<script type="text/javascript" src="${js.backbone}"></script>
+<script type="text/javascript" src="${js.json}"></script>
+<script type="text/javascript" src="${js.trimpath}"></script>
+<script type="text/javascript" src="${js.JSXTransformer}"></script>
+<script type="text/javascript" src="${js.react}"></script>
+<script type="text/jsx" >
+<script type="text/jsx" out_to=""><%--out_to 将来移到外部是存储的文件名及路径，默认以使用 "当前目录/当前文件名.jsx"--%>
+$(function(){
+	var myreact = {
+		sel: "[name=tpl]",
+		data:function(pno){
+			var v=this;
+			var params = inputs_data(v.jroot);
+			/*<%--
+			//传递分布参数
+			params.pno=pno||v.jsPage.now();
+			params.psize=v.jsPage.psize();
+			loadData("/你的url",params,function(d){
+				v.jsPage.setTotal(d.page.recordCount);
+				v.change({"变更数据块1":d.hotArts})
+				v.change({"变更数据块2":d.attationArts})
+			})
+			--%>*/
+			
+		},state: function() {
+			/*<%--
+			//初始化分页
+			var jsPage = this.jsPage=new JsPage(1,10,0);
+			return {jsPage:jsPage ,baoGaoLst:[],min:10}
+			--%>*/
+			return {};
+		},init: function(jroot) {
+			var v = this;
+			v.jroot=jroot;
+			/*<%--处理表单参数
+			var formData={param1:"<%=pagam1%>","参数表单项英文名称":"表单项值"  };
+			initFormInputValue(jroot,formData);//填充表单
+			v.jsPage.bind("to,next,prev",function(p){//绑定分页响应
+				v.data(p.now())
+				deal_common(jroot);
+			});
+			--%>*/ 
+		}
+	}
+	ReactGenAndRun(myreact,"#rootOut");
+	myreact.data(1)
+})
+</script>
+<%-- 本页特有样式   --%>
+<%--<link href="css/dh.css" rel="stylesheet" type="text/css" />--%>
+</head>
+<body>
+<div id=rootOut></div>
+<script  type="text/tpl" name="tpl">
+<div>
+<%--在下面书写模板 --%>
+<%--分页插件 <Trx_Page config={s.jsPage} /> --%>
+<%--tab插件  <Trx_Tabs config={s.tabDatas} /> --%>
+</div>
+</script>
+</body>
+</html>
+ 
